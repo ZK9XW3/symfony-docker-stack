@@ -62,7 +62,10 @@
 - `make fix` to fix with php-cs-fixer
 
 ## Troubleshooting
-#### Change the owner
+### entrypoint.sh not found
+- change the format of the file to LF unix
+
+### Change the owner
 - owner in your container should be www-data
 - owner on your local machine should be your user
 - if you need to change ownership :
