@@ -11,7 +11,8 @@
 
 ## How to set a new project
 ### Prepare
-- `git clone` this project
+- `git clone` this project to your project folder
+  - `git clone url your-project-directory` 
 - rename the main folder to your project name
   - `mv symfony-stack your-project-name`
 - copy the .env.template file to .env and set the variables (Ports, project name, etc)
